@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(8, 8, 8);
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    top:10%;
+}
+
+#navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#navbar nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+#navbar button{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Home section css  */
+
+#home{
+     width: 100%;
+     height: 100vh;
+     /* background-color: burlywood; */
+     background-image: url('image2.avif');
+     /* background-repeat: no-repeat; */
+     background-size: cover;
+     background-position: center;
+     /* text-align: center; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+#home .text{
+    color: rgb(14, 0, 0);
+    /* text-align: center; */
+    /* padding-top: 10%; */
+    /* background-color: red; */
+    /* margin-left: 50%; */
+}
+
+
+/*================== About css ================= */
+
+#About{
+   
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+
+}
+
+#About .aboutdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#About .aboutdiv .div1{
+
+    width: 50%;
+    height: 50%;
+    align-items: center;
+
+}
+
+#About .aboutdiv .div2{
+
+    width: 50%;
+height: 50%;
+   
+    background-color: rgb(240, 142, 106);
+
+}
